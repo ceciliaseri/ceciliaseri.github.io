@@ -79,7 +79,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 /* ── Home page ────────────────────────────────────────── */
 .home-grid {
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 280px;
   gap: 3rem;
   align-items: start;
 }
@@ -156,7 +156,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 
 .photo-col img {
   width: 100%;
-  max-width: 240px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
   border: 1px solid var(--border);
