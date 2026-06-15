@@ -156,7 +156,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 
 .photo-col img {
   width: 100%;
-  max-width: 180px;
+  max-width: 240px;
   display: block;
   margin: 0 auto;
   border: 1px solid var(--border);
@@ -286,3 +286,28 @@ footer {
   .nav-links { gap: 1.2rem; }
   .home-intro h1 { font-size: 1.6rem; }
 }
+
+.contact-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+  font-weight: normal;
+}
+
+/* ── Social links ─────────────────────────────────────── */
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.social-links a {
+  color: var(--muted);
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a:hover { color: var(--navy); }
