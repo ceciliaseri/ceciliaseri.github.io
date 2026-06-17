@@ -191,7 +191,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 .paper-section { margin-bottom: 3rem; }
 
 .paper-section h2 {
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
@@ -202,10 +202,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 .paper {
   margin-bottom: 1.75rem;
   padding-bottom: 1.75rem;
-  border-bottom: 1px solid var(--border);
 }
-
-.paper:last-child { border-bottom: none; }
 
 .paper-title {
   font-family: var(--serif);
@@ -315,3 +312,34 @@ footer {
 }
 
 .paper-tag a:hover { text-decoration: underline; }
+
+/* ── Abstract toggle ──────────────────────────────────── */
+.abstract-toggle {
+  margin-top: 0.6rem;
+}
+
+.abstract-toggle summary {
+  font-size: 0.85rem;
+  color: var(--link);
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+}
+
+.abstract-toggle summary::-webkit-details-marker { display: none; }
+
+.abstract-toggle summary::after {
+  content: " ▾";
+  font-size: 0.75rem;
+}
+
+.abstract-toggle[open] summary::after {
+  content: " ▴";
+}
+
+.abstract-toggle p {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.7;
+}
