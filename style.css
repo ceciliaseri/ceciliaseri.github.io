@@ -5,7 +5,7 @@
 
 :root {
   --navy:   #1a2e4a;
-  --link:   #4a7ab5;
+  --link:   #5a6a7a;
   --muted:  #5a6a7a;
   --border: #d8dfe8;
   --bg:     #ffffff;
@@ -27,6 +27,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
 
 /* ── Layout ───────────────────────────────────────────── */
 .site-wrapper {
@@ -199,7 +202,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -211,7 +214,7 @@ main { flex: 1; padding: 3.5rem 0 4rem; }
 .paper-title {
   font-family: var(--sans);
   font-size: 1.05rem;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--navy);
   margin-bottom: 0.25rem;
 }
