@@ -5,7 +5,7 @@
 
 :root {
   --navy:   #1a2e4a;
-  --link:   #5a6a7a;
+  --link:   #2a5fa5;
   --muted:  #5a6a7a;
   --border: #d8dfe8;
   --bg:     #ffffff;
@@ -306,19 +306,25 @@ footer {
 
 .social-links a:hover { color: var(--navy); }
 
-/* ── Paper tag (working paper, draft coming soon) ────── */
-.paper-tag {
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--muted);
+/* ── Paper tags ──────────────────────────────────────── */
+.paper-tag-link {
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
-.paper-tag a {
+.paper-tag-link a {
   color: var(--link);
   text-decoration: none;
 }
 
-.paper-tag a:hover { text-decoration: underline; }
+.paper-tag-link a:hover { text-decoration: underline; }
+
+.paper-status {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 400;
+}
 
 /* ── Abstract toggle ──────────────────────────────────── */
 .abstract-toggle {
