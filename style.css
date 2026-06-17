@@ -301,3 +301,17 @@ footer {
 }
 
 .social-links a:hover { color: var(--navy); }
+
+/* ── Paper tag (working paper, draft coming soon) ────── */
+.paper-tag {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.paper-tag a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.paper-tag a:hover { text-decoration: underline; }
